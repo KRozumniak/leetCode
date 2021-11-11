@@ -44,6 +44,7 @@ Constraints:
 nums is sorted in non-decreasing order.
 
 ###Solution
+
 ```javascript
   var removeDuplicates = function (nums) {
   let j = 0;
