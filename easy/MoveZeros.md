@@ -28,8 +28,8 @@ ___
 * @return {void} Do not return anything, modify nums in-place instead.
   */
   
----
-  
+### Solution
+```
   var moveZeroes = function(nums) {
   let i = 0;
   for (let j = 0; j < nums.length; j++) {
@@ -42,3 +42,4 @@ ___
   nums[j] = 0   
   }
   };
+```
